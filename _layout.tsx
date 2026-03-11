@@ -3,7 +3,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function App() {
   
-  const buttons = [ 'LIMPAR', 'DEL', '0','1','2','3','4','5','6','7','8','9','+', '-', '/', 'X', '=']
+  const buttons = [ 'LIMPAR', 'DEL', '0','+','7','8','9','-','4','5','6','/','1', '2', '3', 'X', '=']
 
   const [numeroAtual, setNumeroAtual] = useState ("")
   const [ultimoNumero, setUltimoNumero] = useState("")
@@ -89,7 +89,7 @@ export default function App() {
   );
 }
 
-// Estilização
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
